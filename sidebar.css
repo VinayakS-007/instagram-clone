@@ -23,7 +23,7 @@
 .sidebar-1st-group-container{
   display: flex;
   flex-direction: column;
-  gap: 13.8px;
+  gap: 34px;
   padding-left: 13px;
   margin-top:25px;
   padding-top: 9px;
@@ -51,7 +51,7 @@
 .sidebar-2nd-group-container{
   display: flex;
   flex-direction: column;
-  gap: 13px;
+  gap: 23px;
   padding-left: 12px;
   margin-top: -5px;
 }
