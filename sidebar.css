@@ -1,3 +1,79 @@
 .Sidebar-container{
   width: 244px;
+  height: 7416.660px;
+  line-height: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-rows:75px 530px 170px;
+  border-right: 1px solid rgb(224, 224, 224)
+}
+.insta-logo{
+  padding-left: 13px;
+  display: flex;
+  align-items: center;
+}
+.instagram-text-icon-img{
+  object-fit: cover;
+  height: 40px;
+  width: 110px;
+  padding-top: 40px;
+}
+.sidebar-1st-group-container{
+  display: flex;
+  flex-direction: column;
+  gap: 13.8px;
+  padding-left: 13px;
+  margin-top:25px;
+  padding-top: 9px;
+}
+.sidebar-1st-group-block{
+  display: flex;
+  align-items: center;
+}
+.sidebar-icons{
+  height: 23px;
+}
+.sidebar-text-p{
+  padding-left: 20px;
+}
+.home-sidebar-text-p{
+  padding-left: 20px;
+  font-weight: bold;
+}
+.sidebar-profile-img{
+  height: 26px;
+  width: 26px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.sidebar-2nd-group-container{
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  padding-left: 12px;
+  margin-top: -5px;
+}
+.sidebar-2nd-group-block{
+  display: flex;
+  align-items: center;
+  margin-top: 1.5px;
+}
+.meta-ai-group-block{
+  display: flex;
+  align-items: center;
+  margin-top: 10.5px;
+}
+.sidebar-2nd-icons{
+  height: 23px;
+}
+.meta-sidebar-icons{
+  object-fit: cover;
+  height: 37px;
+  width: 37px;
+  margin-left: -4.5px;
+}
+.meta-ai-sidebar-text-p{
+  padding-left: 14px;
 }
