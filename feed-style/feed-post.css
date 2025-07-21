@@ -1,0 +1,35 @@
+.post-container{
+  background-color: rgb(127, 242, 255);
+  height: 100%;
+  width: 470px;
+  margin-top: 30px;
+}
+.post-box{
+  background-color: #3af7c8;
+  height: 792.600px;
+  width: 100%;
+  padding-bottom: 16px;
+  border-bottom: 0.800px solid rgb(200, 200, 200);
+  margin-bottom: 20px;
+}
+.post-1st-box{
+  background-color: #ffe9c4;
+  width: 100%;
+  height: 46px;
+}
+.post-2nd-box{
+  background-color: #3afb53;
+  width: 100%;
+  height: 575px;
+}
+.post-3rd-4th-box{
+  background-color: blue;
+  height: 144px;
+}
+.post-3rd-box{
+  background-color: #ffe9c4;
+  width: 100%;
+  height: 40px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
