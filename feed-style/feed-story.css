@@ -1,5 +1,5 @@
 .story-container{
-  background-color: #98ffb2;
+  background-color: #ffffff;
   height: 116px;
   display: flex;
   flex-direction: row;
@@ -7,7 +7,7 @@
 }
 .story-box{
   width: 84px;
-  background-color: rgb(255, 134, 134);
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,6 +18,9 @@
   width: 84px;
   height: 84px;
   border-radius: 50%;
+  border: solid;
+  border-width: 1px;
+  color: rgb(199, 199, 199);
 }
 .story-p{
   font-size: 12px;

@@ -1,17 +1,17 @@
 .feed-container{
   flex: 1;
-  background-color: rgb(250, 149, 255);
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .feed-inner-container{
-  background-color: rgb(144, 187, 255);
+  background-color: rgb(255, 255, 255);
   width: 632px;
   height: 100%;
   padding-top: 16px;
 }.feed-post-container{
-  background-color: rgb(255, 255, 152);
+  background-color: rgb(255, 255, 255);
   height: 100%;
   display: flex;
   flex-direction: column;
