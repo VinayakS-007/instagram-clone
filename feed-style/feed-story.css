@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 145px;
+  margin-left: 140px;
   gap: 20px
 }
 .story-box{
