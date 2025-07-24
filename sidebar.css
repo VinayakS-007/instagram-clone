@@ -31,6 +31,7 @@
 .sidebar-1st-group-block{
   display: flex;
   align-items: center;
+  position: relative;
 }
 .sidebar-icons{
   height: 23px;
@@ -76,4 +77,28 @@
 }
 .meta-ai-sidebar-text-p{
   padding-left: 14px;
+}
+.msg-number{
+  position: absolute;
+  background-color: #fa3333;
+  font-size: 13px;
+  color: white;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 15px;
+  top: -8px;
+  right: 168px;
+  border: solid 2px rgb(255, 255, 255);
+}
+.heart-dot{
+  position: absolute;
+  background-color: red;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: solid 2px rgb(255, 255, 255);
+  top: -3px;
+  right: 179px;
 }
