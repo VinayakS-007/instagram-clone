@@ -94,7 +94,7 @@
 }
 .heart-dot{
   position: absolute;
-  background-color: red;
+  background-color: #fa3333;
   width: 8px;
   height: 8px;
   border-radius: 50%;

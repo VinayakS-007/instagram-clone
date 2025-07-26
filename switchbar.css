@@ -1,3 +1,14 @@
+.msg-conatainer-bup{
+  background-color: rgb(255, 255, 255);
+  height: 54px;
+  width: 250px;
+  position: fixed;
+  flex-direction: row;
+  bottom: 100px;
+  right: 32px;
+  border-radius: 50px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
 .switchbar-container{
   width: 320px;
   padding-right: 125px;
@@ -11,7 +22,7 @@
   height: 44px;
   display: flex;
   flex-direction: row;
-  margin: 0 20px 22px 9px;
+  margin: 0 20px 18px 9px;
 
 }
 .switchbar-account-img{
@@ -46,7 +57,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 25px 0 9px;
+  margin: 0 25px 10px 9px;
 }
 .suggested-for-you-p{
   flex: 1;
@@ -55,11 +66,11 @@
   font-size: 14px;
 }
 .see-all-p{
-  font-weight: 400;
+  font-weight:600;
   font-size: 13px;
 }
 .suggested-account-container{
-  padding: 8px 0;
+  padding: 10px 0;
   display: flex;
   flex-direction: column;
 }
@@ -72,6 +83,7 @@
   background: none;
   color: rgb(49, 67, 227);
   font-size: 12px;
+  font-weight: bold;
 }
 .about-locations-c-box{
   padding-left: 9px;
@@ -86,4 +98,72 @@
   color: rgb(209, 209, 209);
   width: 270px;
   margin-top: 22PX;
+}
+.msg-conatainer{
+  background-color: rgb(255, 255, 255);
+  height: 54px;
+  width: 230px;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  bottom: 32px;
+  right: 32px;
+  border-radius: 50px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  gap: 10px;
+  padding-left: 20px;
+}
+.msg-img-num-box{
+  position: relative;
+}
+.msg-number-box{
+  position: absolute;
+  background-color: #fa3333;
+  font-size: 13px;
+  color: white;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 15px;
+  border: solid 2px rgb(255, 255, 255);
+  left: 3;
+}
+.sidebar-icons{
+  margin-top: 5px;
+}
+.msg-img-container{
+  background-color: red;
+  position: relative;
+  margin-bottom:25px;
+}
+.msg-p{
+  font-weight: 600;
+  padding-left: 20px;
+}
+.msg-img-container img{
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+  border: solid 2px white
+}
+.msg-1-img{
+  position: absolute;
+  z-index: 10;
+}
+.msg-2-img{
+  position: absolute;
+  left: 18px;
+  z-index: 9;
+}
+.msg-3-img{
+  position: absolute;
+  left: 36px;
+  z-index: 8;
+}
+.msg-4-img{
+  position: absolute;
+  left: 54px;
+  z-index: 7;
 }
