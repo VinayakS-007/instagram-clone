@@ -1,3 +1,89 @@
 .switchbar-container{
-  width: 383px;
+  width: 320px;
+  padding-right: 125px;
+}
+.switchbar-box{
+  height: 547px;
+  margin-top: 36px;
+}
+
+.account-container{
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 20px 22px 9px;
+
+}
+.switchbar-account-img{
+  height: 44px;
+  width: 44px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.switchbar-account-info-box{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 2px 0 2px 0;
+}
+.switchbar-account-username{
+  font-size: 14px;
+  font-weight: 500;
+}
+.switchbar-account-name{
+  font-size: 14px;
+  color: rgb(115, 115, 115);
+}
+.switchbar-account-btn{
+  border: none;
+  color: rgb(49, 67, 227);
+  font-weight: 600;
+  font-size: 12px;
+  background: none;
+}
+.suggested-n-foryou-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 25px 0 9px;
+}
+.suggested-for-you-p{
+  flex: 1;
+  font-weight: 500;
+  color: rgb(115, 115, 115);
+  font-size: 14px;
+}
+.see-all-p{
+  font-weight: 400;
+  font-size: 13px;
+}
+.suggested-account-container{
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+}
+.switchbar-followed-by-p{
+  font-size: 13px;
+  color: rgb(115, 115, 115);
+}
+.switchbar-follw-btn{
+  border: none;
+  background: none;
+  color: rgb(49, 67, 227);
+  font-size: 12px;
+}
+.about-locations-c-box{
+  padding-left: 9px;
+}
+.about-locations-1st-p{
+  font-size: 12px;
+  color: rgb(209, 209, 209);
+  width: 250px;
+}
+.about-locations-2nd-p{
+  font-size: 12px;
+  color: rgb(209, 209, 209);
+  width: 270px;
+  margin-top: 22PX;
 }
