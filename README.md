@@ -8,6 +8,7 @@ A simple static clone of Instagram's homepage built using only **HTML** and **CS
 - Sidebar with icons
 - Story ring design
 - Clean and organized CSS
+- Under development
 
 ## Tech Used
 
